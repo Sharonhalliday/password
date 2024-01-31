@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/a15138ce98.js" crossorigin="anonymous"></script>
+    <title>Password Validator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-danger text-center">Password Validator</h1>
+        <form id="formOne" class="my-5 center">
+            <div class="formContainer">
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control">
+                </div>
+
+                <div class="my-4">
+                    <button class="btn btn-danger w-100 btn-bg" type="submit">Login in</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="output center">
+            <ul>
+                <li id="upperCaseResult">
+        
+                </li>
+
+                <li id="lengthResult">
+                
+                </li>
+                <li id="numberResult">
+                
+                </li>
+                <li id="alphaNumericResult">
+                
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

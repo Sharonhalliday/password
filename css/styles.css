@@ -1,0 +1,17 @@
+ul {
+    list-style: none;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.formContainer {
+    width: 600px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
